@@ -1,24 +1,53 @@
-📘 README.md
+> `README.md` principal complet parfaitement aligné avec le projet `WinSoft v1.0` et avec une présentation moderne de type `framework open‑source`.
 
-# WinSoft
+- à la racine
 
-> Framework PowerShell unifié pour alléger et optimiser Windows 10 & 11
+```
+~WinSoft/ README.md
+```
+---
+###### 🟦 README.md — `markdown`
 
+<div align="center">
+  
+# 🪛 WINSOFT 1.0
+  </p>
+</div>
+
+- Framework PowerShell modulaire pour optimiser Windows 10 & 11
+
+![banner](assets/banner.png)
+
+>WinSoft est un framework PowerShell propre, modulaire et maintenable, conçu pour :  
+- alléger Windows  
+- supprimer les applications inutiles  
+- optimiser les services  
+- appliquer des réglages système  
+- automatiser la maintenance  
+
+>Compatible Windows 10, Windows 11, et pensé pour évoluer.
+
+---
+
+#### 📦 Télécharger la dernière release •  
+#### 📘 Documentation •  
+#### 🛠️ Contribuer •  
+#### 🆘 Support
+
+---
 
 🧭 Présentation
 
-WinSoft est un framework PowerShell modulaire conçu pour :
+WinSoft‑Unified fournit une architecture claire et modulaire permettant :
 
-- alléger Windows 10 et Windows 11  
-- optimiser les performances système  
-- supprimer les applications inutiles (bloatware)  
-- désactiver les services non essentiels  
-- appliquer des réglages propres à chaque OS  
-- fournir une base propre, maintenable et extensible  
+- une détection automatique de la version de Windows  
+- un système de configuration centralisé  
+- des modules séparés pour Win10 et Win11  
+- un logging propre avec rotation  
+- des tests pour garantir la stabilité  
+- une maintenance simplifiée  
 
-Le projet détecte automatiquement la version de Windows et applique les modules adaptés.
-
-Version actuelle : 1.0.0 — Stable
+L’objectif : offrir un outil professionnel, fiable et extensible pour optimiser Windows sans risque.
 
 ---
 
@@ -26,170 +55,172 @@ Version actuelle : 1.0.0 — Stable
 
 ```text
 WinSoft-Unified/
-├── scripts/
-│   ├── main.ps1
-│   ├── detect.ps1
-│   ├── common/
-│   │   ├── debloat-common.ps1
-│   │   └── optimize-common.ps1
-│   ├── win10/
-│   │   ├── debloat-win10.ps1
-│   │   └── optimize-win10.ps1
-│   └── win11/
-│       ├── debloat-win11.ps1
-│       └── optimize-win11.ps1
+├── README.md
+├── CHANGELOG.md
+├── ROADMAP.md
+├── CONTRIBUTING.md
+├── CODEOFCONDUCT.md
+├── SECURITY.md
+├── SUPPORT.md
+├── CODEOWNERS
+├── LICENSE
+│
 ├── config/
+│   ├── README.md
 │   ├── apps-common.txt
 │   ├── apps-win10.txt
-│   └── apps-win11.txt
+│   ├── apps-win11.txt
+│   ├── load_config.ps1
+│   ├── validate_config.ps1
+│   └── update_config.ps1
+│
+├── scripts/
+│   ├── main.ps1
+│   ├── detect_os.ps1
+│   ├── debloat.ps1
+│   ├── optimize.ps1
+│   ├── utils.ps1
+│   ├── logging.ps1
+│   ├── checks.ps1
+│   └── menu.ps1
+│
+├── modules/
+│   ├── Win10/
+│   └── Win11/
+│
 ├── logs/
-│   └── (générés automatiquement)
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   │   ├── module_request.md
-│   │   └── documentation.md
-│   ├── pullrequesttemplate.md
-│   └── FUNDING.yml
-├── CHANGELOG.md
-└── README.md
+├── assets/
+└── tests/
 ```
 
 ---
 
-⚙️ Fonctionnement
+🚀 Fonctionnalités principales
 
-🔍 Détection automatique de l’OS
-Le script detect.ps1 identifie si le système est :
+✔ Détection automatique de l’OS
+Windows 10 / Windows 11 → modules adaptés automatiquement.
 
-- Windows 10  
-- Windows 11  
+✔ Debloat intelligent
+Suppression propre des applications listées dans config/.
 
-🧠 Script principal
-main.ps1 :
+✔ Optimisation système
+Services, tâches planifiées, réglages de performance.
 
-- crée les logs  
-- charge la détection  
-- exécute les modules communs  
-- exécute les modules spécifiques selon l’OS  
+✔ Configuration centralisée
+Fichiers .txt + scripts de gestion (load, validate, update).
 
-🧹 Modules Debloat
-- Commun : suppression des apps présentes sur Win10 & Win11  
-- Win10 : suppression des apps spécifiques Windows 10  
-- Win11 : suppression des apps spécifiques Windows 11 (Widgets, Chat, Clipchamp…)  
+✔ Logging professionnel
+- rotation automatique  
+- logs horodatés  
+- dossier dédié  
 
-⚡ Modules Optimisation
-- Commun : télémétrie, services inutiles, fichiers temporaires  
-- Win10 : Cortana, effets visuels  
-- Win11 : Widgets, Chat, effets visuels  
+✔ Architecture modulaire
+Chaque OS possède ses propres modules :
+
+`
+modules/Win10/
+modules/Win11/
+`
+
+✔ Tests intégrés
+Scripts de validation dans tests/.
 
 ---
 
-🚀 Utilisation
+📘 Documentation
 
-Exécuter en administrateur :
+La documentation est répartie dans plusieurs fichiers :
+
+- config/README.md — gestion des fichiers de configuration  
+- scripts/ — scripts principaux du framework  
+- modules/ — modules spécifiques Win10 / Win11  
+- ROADMAP.md — vision et évolutions prévues  
+- CHANGELOG.md — historique des versions  
+
+---
+
+🛠️ Installation
+
+1. Cloner le dépôt
 
 `powershell
-cd .\scripts\
-.\main.ps1
+git clone https://github.com/.../WinSoft.git
+cd WinSoft
 `
 
-Les logs seront générés automatiquement dans logs/.
+2. Lancer le script principal
 
----
-
-🧩 Configuration
-
-Les listes d’applications à supprimer sont dans :
-
-- config/apps-common.txt  
-- config/apps-win10.txt  
-- config/apps-win11.txt  
-
-Modifiables sans toucher aux scripts.
-
----
-
-🧪 Qualité & Workflow GitHub
-
-🐞 Templates d’issues
-Disponibles dans .github/ISSUE_TEMPLATE/ :
-
-- Bug Report  
-- Feature Request  
-- Module Request  
-- Documentation  
-
-🔀 Template de Pull Request
-Disponible dans .github/pullrequesttemplate.md.
-
-🎯 Milestone 1.0
-Inclut :
-
-- structure du projet  
-- scripts principaux  
-- modules debloat  
-- modules optimisation  
-- documentation  
-- configuration  
-
-📘 CHANGELOG
-Toutes les modifications sont documentées dans CHANGELOG.md.
-
----
-
-📦 Roadmap (extraits)
-
-🔜 Version 1.1
-- Optimisation réseau  
-- Optimisation CPU/RAM  
-- Nettoyage avancé (WinSxS, logs système)
-
-🔮 Version 2.0
-- Interface TUI PowerShell  
-- Mode Ultra‑Lite (agressif, optionnel)  
-- Support Windows Server  
-
----
-
-🤝 Contributions
-
-Les contributions sont les bienvenues :
-
-1. Créer une branche  
-2. Ouvrir une issue si nécessaire  
-3. Soumettre une Pull Request  
-4. Suivre le template fourni  
-
----
-
-❤️ Support & Sponsoring
-
-Les liens de soutien sont disponibles dans :
-
-`
-.github/FUNDING.yml
+`powershell
+powershell.exe -ExecutionPolicy Bypass -File .\scripts\main.ps1
 `
 
 ---
 
-📜 Licence
+📂 Configuration
 
-Projet open‑source — licence au choix (MIT recommandé).  
-Je peux te générer un fichier LICENSE si tu veux.
+Les fichiers de configuration se trouvent dans :
+
+`
+config/
+`
+
+Ils permettent de définir :
+
+- les applications à supprimer  
+- les règles spécifiques Win10 / Win11  
+- les presets futurs (Gaming, Entreprise, Ultra‑Lite…)  
+
+Les scripts utilitaires :
+
+- load_config.ps1  
+- validate_config.ps1  
+- update_config.ps1  
 
 ---
 
-🏁 Statut actuel
+🤝 Contribuer
 
-WinSoft‑Unified 1.0.0 est :
+Les contributions sont les bienvenues !
 
-- stable  
-- modulaire  
-- maintenable  
-- compatible Windows 10 & 11  
-- documenté  
-- prêt pour les futures versions  
+Consultez :  
+👉 CONTRIBUTING.md  
+👉 CODEOFCONDUCT.md  
+👉 SUPPORT.md
+
+---
+
+🔐 Sécurité
+
+Pour signaler une faille ou un comportement suspect :  
+👉 consultez SECURITY.md
+
+---
+
+🗺️ Roadmap
+
+La roadmap complète est disponible dans :  
+👉 ROADMAP.md
+
+Extraits :
+
+- v1.1 → amélioration des modules  
+- v2.0 → dashboard interactif + presets  
+- v3.0 → support Windows Server  
+
+---
+
+📄 Licence
+
+Projet sous licence MIT (modifiable si tu veux).
+
+---
+
+<div align="center">
+
+Merci d’utiliser WinSoft 💙  
+N’hésitez pas à contribuer, proposer des idées ou ouvrir des issues.
+
+</div>
+`
 
 ---
