@@ -14,7 +14,7 @@
   </p>
 </div>
 
-- Framework PowerShell modulaire pour optimiser Windows 10 & 11
+- Framework `PowerShell` modulaire pour optimiser `Windows 10 & 11`
 
 ![banner](assets/banner.png)
 
@@ -29,16 +29,9 @@
 
 ---
 
-#### 📦 Télécharger la dernière release •  
-#### 📘 Documentation •  
-#### 🛠️ Contribuer •  
-#### 🆘 Support
-
----
-
 🧭 Présentation
 
-WinSoft‑Unified fournit une architecture claire et modulaire permettant :
+WinSoft fournit une architecture claire et modulaire permettant :
 
 - une détection automatique de la version de Windows  
 - un système de configuration centralisé  
@@ -47,7 +40,7 @@ WinSoft‑Unified fournit une architecture claire et modulaire permettant :
 - des tests pour garantir la stabilité  
 - une maintenance simplifiée  
 
-L’objectif : offrir un outil professionnel, fiable et extensible pour optimiser Windows sans risque.
+>L’objectif : offrir un outil professionnel, fiable et extensible pour optimiser Windows sans risque.
 
 ---
 
@@ -98,16 +91,16 @@ WinSoft-Unified/
 🚀 Fonctionnalités principales
 
 ✔ Détection automatique de l’OS
-Windows 10 / Windows 11 → modules adaptés automatiquement.
+- Windows 10 / Windows 11 → modules adaptés automatiquement.
 
 ✔ Debloat intelligent
-Suppression propre des applications listées dans config/.
+- Suppression propre des applications listées dans config/.
 
 ✔ Optimisation système
-Services, tâches planifiées, réglages de performance.
+- Services, tâches planifiées, réglages de performance.
 
 ✔ Configuration centralisée
-Fichiers .txt + scripts de gestion (load, validate, update).
+- Fichiers .txt + scripts de gestion (load, validate, update).
 
 ✔ Logging professionnel
 - rotation automatique  
@@ -115,15 +108,15 @@ Fichiers .txt + scripts de gestion (load, validate, update).
 - dossier dédié  
 
 ✔ Architecture modulaire
-Chaque OS possède ses propres modules :
+- Chaque OS possède ses propres modules :
 
-`
+```text
 modules/Win10/
 modules/Win11/
-`
+```
 
 ✔ Tests intégrés
-Scripts de validation dans tests/.
+- Scripts de validation dans tests/.
 
 ---
 
