@@ -1,0 +1,23 @@
+# Code Owners — WinSoft‑Unified
+# Le propriétaire principal du projet est Teremu
+
+* @Teremu
+
+# Scripts principaux
+/scripts/ @teremuhamblin
+
+# Modules communs
+/scripts/common/ @teremuhamblin
+
+# Modules Windows 10
+/scripts/win10/ @teremuhamblin
+
+# Modules Windows 11
+/scripts/win11/ @teremuhamblin
+
+# Configuration
+/config/ @teremuhamblin
+
+# Documentation
+/*.md @teremuhamblin
+/.github/ @teremuhamblin
