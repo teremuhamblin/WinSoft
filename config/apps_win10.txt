@@ -1,0 +1,11 @@
+Microsoft.BingFinance
+Microsoft.BingNews
+Microsoft.BingSports
+Microsoft.BingTranslator
+Microsoft.BingFoodAndDrink
+Microsoft.BingTravel
+Microsoft.BingHealthAndFitness
+Microsoft.MicrosoftPowerBIForWindows
+Microsoft.OneConnect
+Microsoft.WindowsReadingList
+Microsoft.WindowsPhone
