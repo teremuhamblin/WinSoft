@@ -30,17 +30,27 @@ L’objectif : obtenir un système plus rapide, plus propre, et plus stable, san
 
 📁 Structure du projet
 
-
 ```text
-Win10-Soft/
+WinSoft/
 ├── README.md
 ├── scripts/
 │   ├── main.ps1
-│   └── debloat.ps1
+│   ├── detect.ps1
+│   ├── common/
+│   │   ├── debloat-common.ps1
+│   │   └── optimize-common.ps1
+│   ├── win10/
+│   │   ├── debloat-win10.ps1
+│   │   └── optimize-win10.ps1
+│   └── win11/
+│       ├── debloat-win11.ps1
+│       └── optimize-win11.ps1
 ├── logs/
 │   └── .gitkeep
 └── config/
-    └── apps-to-remove.txt
+    ├── apps-common.txt
+    ├── apps-win10.txt
+    └── apps-win11.txt
 ```
 
 ---
