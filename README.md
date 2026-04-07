@@ -47,7 +47,7 @@ WinSoft fournit une architecture claire et modulaire permettant :
 🏗️ Architecture du projet
 
 ```text
-WinSoft-Unified/
+WinSoft/
 ├── README.md
 ├── CHANGELOG.md
 ├── ROADMAP.md
