@@ -58,21 +58,14 @@ WinSoft/
 🛠️ Installation & utilisation
 
 1. Télécharger le projet
-Clone ou télécharge le dossier :
-
-`powershell
-git clone https://github.com/username/Win10-Soft
-cd Win10-Soft
-`
+- Cloner ou télécharger le dossier `"WinSoft"`
 
 2. Exécuter le script principal
+- Ouvre PowerShell en administrateur, puis lance :
 
-Ouvre PowerShell en administrateur, puis lance :
+> Set-ExecutionPolicy Bypass -Scope Process -Force 
+> .\scripts\main.ps1
 
-`powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-.\scripts\main.ps1
-`
 
 ---
 
