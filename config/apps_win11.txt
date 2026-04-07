@@ -1,0 +1,10 @@
+MicrosoftTeams
+Microsoft.Windows.StartMenuExperienceHost
+MicrosoftWindows.Client.WebExperience
+Clipchamp.Clipchamp
+Microsoft.OutlookForWindows
+Microsoft.Windows.DevHome
+Microsoft.Windows.DevHomeInstaller
+Microsoft.WindowsWidgets
+Microsoft.Todos
+Microsoft.Windows.Copilot
