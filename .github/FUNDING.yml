@@ -1,0 +1,17 @@
+# WinSoft — Funding configuration
+# Compatible GitHub Sponsors
+
+github: [NULL]            # Ajoute ton pseudo GitHub Sponsors si tu en as un
+patreon: "NULL"           # Ajoute ton Patreon si tu en as un
+ko_fi: "NULL"             # Ajoute ton Ko-Fi si tu en as un
+
+# Liens externes (custom)
+custom:
+  - "https://www.malekal.com"
+  - "https://lecrabeinfo.net"
+  - "https://www.bleepingcomputer.com"
+  - "https://www.tenforums.com"
+  - "https://www.elevenforum.com"
+  - "https://www.majorgeeks.com"
+  - "https://learn.microsoft.com"
+  - "https://github.com/sponsors"
