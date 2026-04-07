@@ -1,7 +1,7 @@
-📘 `README.md` >> 🪟 Win10‑Soft
+📘 `README.md` >> 🪟 WinSoft
 - Optimisation, nettoyage et automatisation pour Windows 10 / 11
 
-> Win10‑Soft est un projet conçu pour alléger Windows 10, améliorer sa réactivité, supprimer les applications inutiles, désactiver les services lourds, et automatiser certaines tâches de maintenance.  
+> WinSoft est un projet conçu pour alléger Windows 10 et 11, améliorer sa réactivité, supprimer les applications inutiles, désactiver les services lourds, et automatiser certaines tâches de maintenance.  
 L’objectif : obtenir un système plus rapide, plus propre, et plus stable, sans casser les composants essentiels.
 
 ---
