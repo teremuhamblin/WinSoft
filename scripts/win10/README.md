@@ -1,6 +1,6 @@
 # 📁 Dossier : win10/
 
-Ce dossier contient les modules spécifiques à **Windows 10** pour le projet **WinSoft‑Unified**.
+Ce dossier contient les modules spécifiques à **Windows 10** pour le projet **WinSoft**.
 
 ## Contenu
 
