@@ -16,7 +16,7 @@
 
 - Framework `PowerShell` modulaire pour optimiser `Windows 10 & 11`
 
-![banner](assets/banner.png)
+![banner](assets/banner.jpg)
 
 >WinSoft est un framework PowerShell propre, modulaire et maintenable, conçu pour :  
 - alléger Windows  
