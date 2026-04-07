@@ -46,47 +46,7 @@ WinSoft fournit une architecture claire et modulaire permettant :
 
 🏗️ Architecture du projet
 
-```text
-WinSoft/
-├── README.md
-├── CHANGELOG.md
-├── ROADMAP.md
-├── CONTRIBUTING.md
-├── CODEOFCONDUCT.md
-├── SECURITY.md
-├── SUPPORT.md
-├── CODEOWNERS
-├── LICENSE
-│
-├── config/
-│   ├── README.md
-│   ├── apps-common.txt
-│   ├── apps-win10.txt
-│   ├── apps-win11.txt
-│   ├── load_config.ps1
-│   ├── validate_config.ps1
-│   └── update_config.ps1
-│
-├── scripts/
-│   ├── main.ps1
-│   ├── detect_os.ps1
-│   ├── debloat.ps1
-│   ├── optimize.ps1
-│   ├── utils.ps1
-│   ├── logging.ps1
-│   ├── checks.ps1
-│   └── menu.ps1
-│
-├── modules/
-│   ├── Win10/
-│   └── Win11/
-│
-├── logs/
-├── assets/
-└── tests/
-```
-
----
+WinSoft/.../ | \
 
 🚀 Fonctionnalités principales
 
