@@ -1,6 +1,6 @@
 # 📁 Dossier : win11/
 
-Ce dossier contient les modules spécifiques à **Windows 11** pour le projet **WinSoft‑Unified**.
+Ce dossier contient les modules spécifiques à **Windows 11** pour le projet **WinSoft**.
 
 ## Contenu
 
