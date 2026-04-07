@@ -1,12 +1,14 @@
-📘 `README.md` >> 🪟 WinSoft
+📘 `README.md` 
+
+# >> 🪟 WinSoft
 - Optimisation, nettoyage et automatisation pour Windows 10 / 11
 
 > WinSoft est un projet conçu pour alléger Windows 10 et 11, améliorer sa réactivité, supprimer les applications inutiles, désactiver les services lourds, et automatiser certaines tâches de maintenance.  
-L’objectif : obtenir un système plus rapide, plus propre, et plus stable, sans casser les composants essentiels.
+- L’objectif : obtenir un système plus rapide, plus propre, et plus stable, sans casser les composants essentiels.
 
 ---
 
-🚀 Fonctionnalités principales
+## 🚀 Fonctionnalités principales
 
 - 🧹 Debloat Windows 10 / 11
   Suppression des applications préinstallées inutiles (bloatware).
@@ -28,7 +30,7 @@ L’objectif : obtenir un système plus rapide, plus propre, et plus stable, san
 
 ---
 
-📁 Structure du projet
+## 📁 Structure du projet
 
 ```text
 WinSoft/
@@ -55,21 +57,19 @@ WinSoft/
 
 ---
 
-🛠️ Installation & utilisation
+## 🛠️ Installation & utilisation
 
 1. Télécharger le projet
 - Cloner ou télécharger le dossier `"WinSoft"`
 
 2. Exécuter le script principal
-- Ouvre PowerShell en administrateur, puis lance :
-
-> Set-ExecutionPolicy Bypass -Scope Process -Force 
-> .\scripts\main.ps1
-
+> Ouvre `PowerShell en administrateur`, puis lance :
+- Set-ExecutionPolicy Bypass -Scope Process -Force
+- .\scripts\main.ps1
 
 ---
 
-🧩 Modules inclus
+## 🧩 Modules inclus
 
 main.ps1
 - Point d’entrée du projet  
@@ -84,7 +84,7 @@ debloat.ps1
 
 ---
 
-🧹 Personnalisation
+## 🧹 Personnalisation
 
 Modifier la liste des applications à supprimer
 Édite le fichier :
@@ -93,11 +93,11 @@ Modifier la liste des applications à supprimer
 config/apps-to-remove.txt
 `
 
-Ajoute ou supprime des lignes selon tes besoins.
+- Ajoute ou supprime des lignes selon tes besoins.
 
 ---
 
-⚠️ Avertissements
+## ⚠️ Avertissements
 
 - Ce projet supprime certaines applications Microsoft préinstallées.  
 - Aucune suppression critique du système n’est effectuée, mais il est recommandé de créer un point de restauration avant utilisation.  
@@ -105,14 +105,14 @@ Ajoute ou supprime des lignes selon tes besoins.
 
 ---
 
-📜 Licence
+## 📜 Licence
 
 Ce projet est distribué sous licence MIT.  
 Vous êtes libre de l’utiliser, le modifier et le redistribuer.
 
 ---
 
-🤝 Contributions
+## 🤝 Contributions
 
 Les contributions sont les bienvenues :  
 - nouvelles optimisations  
@@ -122,9 +122,9 @@ Les contributions sont les bienvenues :
 
 ---
 
-🧠 Auteur
+## 🧠 Auteur
 
-Projet créé par The MadDoG.tmdg, optimisé pour un usage personnel ou professionnel sur Windows 10 et 11
+Projet créé par `The MadDoG.tmdg`, optimisé pour un usage personnel ou professionnel sur Windows 10 et 11
 
 `
 
