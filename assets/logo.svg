@@ -1,0 +1,10 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="20" fill="#0A84FF"/>
+  <path d="M40 50 L90 30 L140 50 L140 130 L90 150 L40 130 Z" fill="white" opacity="0.9"/>
+  <text x="50%" y="57%" text-anchor="middle" font-size="42" font-family="Segoe UI, sans-serif" fill="#ffffff" font-weight="700">
+    W
+  </text>
+  <text x="50%" y="78%" text-anchor="middle" font-size="18" font-family="Segoe UI, sans-serif" fill="#e6e6e6">
+    WinSoft
+  </text>
+</svg>
