@@ -1,1 +1,10 @@
+# WinSoft Profile - Gaming
+# Version 1.1 AO Release
 
+DisableBackgroundApps=1
+DisableXboxServices=1
+NetworkBoost=1
+GPUAcceleration=1
+GameMode=Enabled
+PowerPlan=HighPerformance
+TempCleanup=Enabled
