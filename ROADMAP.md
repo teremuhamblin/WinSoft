@@ -1,4 +1,53 @@
-🗺️ Roadmap — WinSoft v1.0
+# 🗺️ Roadmap — WinSoft
+
+## 📌 RAPPEL : Version 1.0 (stable)
+- Structure du framework PowerShell
+- Modules Windows 10 / Windows 11
+- Optimisations système de base
+- Nettoyage standard (temp, cache, prefetch)
+- Gestion simple des logs
+- Configuration modulaire (config/apps-*.txt)
+- Documentation initiale (README, CONTRIBUTING, SECURITY)
+
+---
+
+# 🚀 Version 1.1 — Optimisation Avancée (en cours)
+### 🔧 Optimisation réseau
+- Amélioration de la stack TCP/IP
+- Optimisation DNS (cache, résolution, fallback)
+- Désactivation des services réseau inutiles
+- Optimisation QoS / latence
+
+### ⚙️ Optimisation CPU / RAM
+- Réduction des services gourmands
+- Ajustement du plan d’alimentation
+- Optimisation du scheduler CPU
+- Nettoyage RAM intelligent (sans outils externes)
+
+### 🧹 Nettoyage avancé
+- Nettoyage WinSxS (safe mode)
+- Purge des logs système Windows
+- Nettoyage des composants obsolètes DISM
+- Optimisation du dossier SoftwareDistribution
+
+### 📁 Amélioration du système de logs
+- Rotation automatique (daily/weekly)
+- Niveaux de logs (INFO / WARN / ERROR)
+- Formatage propre JSON + texte
+- Ajout d’un module `Write-Log` centralisé
+
+---
+
+# 🧭 Version 2.0 — WinSoft Pro (prévisionnel)
+dashboard TUI PowerShell
+- Installateur setup.ps1
+- Mode “Auto-Optimize”
+- Mode “Audit système”
+- Support multi‑profil (Gaming / Work / Minimal)
+- Export complet des rapports (HTML / JSON)
+- Intégration GitHub Actions (tests + lint)
+
+# 🗺️ Roadmap — WinSoft v1.0
 
 🎯 Objectif de la version 1.0
 Créer une base solide, modulaire et maintenable pour un framework PowerShell capable d’alléger et d’optimiser Windows 10 et Windows 11, avec détection automatique de l’OS et architecture extensible.
