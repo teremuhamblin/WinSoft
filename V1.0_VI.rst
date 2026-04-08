@@ -1,0 +1,96 @@
+## 🟩 Version 1.0 — VI
+
+===========================
+WinSoft 1.0 — Version Initiale
+===========================
+
+.. image:: assets/banner.png
+   :align: center
+   :alt: WinSoft Banner
+
+WinSoft est un framework PowerShell conçu pour optimiser Windows 10 et Windows 11.
+La version **1.0** constitue la base du projet : structure modulaire, optimisations
+système essentielles, nettoyage standard et gestion simple des logs.
+
+-------------------------
+Fonctionnalités principales
+-------------------------
+
+Optimisations système
+=====================
+
+- Optimisations Windows 10 et Windows 11
+- Réduction des services inutiles
+- Amélioration des performances générales
+- Ajustements système de base
+
+Nettoyage standard
+==================
+
+- Suppression des fichiers temporaires
+- Nettoyage du cache
+- Purge du dossier ``prefetch``
+- Nettoyage des fichiers inutiles courants
+
+Configuration modulaire
+=======================
+
+- Fichiers de configuration :
+  - ``apps-common.txt``
+  - ``apps-win10.txt``
+  - ``apps-win11.txt``
+- Scripts utilitaires :
+  - ``load_config.ps1``
+  - ``validate_config.ps1``
+
+Gestion simple des logs
+=======================
+
+- Création automatique du dossier ``logs/``
+- Fichier ``.gitkeep`` pour la structure Git
+- Module de log minimal :
+  - ``write_log.ps1``
+
+-----------------------
+Structure du projet
+-----------------------
+
+La structure complète de la version 1.0 est disponible dans ``STRUCTURE.md``.
+
+-----------------------
+Utilisation du script
+-----------------------
+
+Exécution standard
+==================
+
+.. code-block:: powershell
+
+   .\WinSoft.ps1
+
+Options disponibles
+===================
+
+.. code-block:: powershell
+
+   .\WinSoft.ps1 -Optimize
+   .\WinSoft.ps1 -Clean
+   .\WinSoft.ps1 -Full
+
+---------
+Licence
+---------
+
+MIT (optionnel)
+
+-------------
+Contribution
+-------------
+
+Voir ``CONTRIBUTING.md``.
+
+---------
+Sécurité
+---------
+
+Voir ``SECURITY.md``.
