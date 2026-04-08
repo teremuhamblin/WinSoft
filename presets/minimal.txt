@@ -1,1 +1,10 @@
+# WinSoft Profile - Minimal
+# Version 1.1 AO Release
 
+DisableAnimations=1
+DisableTelemetry=1
+DisableBackgroundApps=1
+LightServicesOnly=1
+PowerPlan=Balanced
+Notifications=Off
+TempCleanup=Enabled
