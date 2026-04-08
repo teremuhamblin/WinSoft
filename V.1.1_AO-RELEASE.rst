@@ -1,4 +1,5 @@
-## 🟩 Version 1.1 — AO-Release (Advanced Optimization)
+## 🟩 Version 1.1 — AO-Release
+Advanced et Optimization
 
 ===========================
 WinSoft 1.1 — AO-Release
