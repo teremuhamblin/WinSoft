@@ -1,1 +1,10 @@
+# WinSoft Profile - Performance
+# Version 1.1 AO Release
 
+DisableTelemetry=1
+DisableSearchIndexing=1
+PowerPlan=UltimatePerformance
+NetworkBoost=1
+DiskOptimization=Enabled
+MemoryCompression=Enabled
+TempCleanup=Enabled
