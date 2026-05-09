@@ -1,10 +1,29 @@
 ##### 📘 CHANGELOG.md >> markdown
-
 # 📜 WinSoft
-
-Toutes les modifications notables de ce projet sont documentées dans ce fichier.
+>Toutes les modifications notables de ce projet sont documentées dans ce fichier.
 
 ---
+
+## 🟩 [1.2] - Mises à jour generale (2026-05)
+### Added
+- Ajout du module central WinSoft.Core.psm1
+- Ajout du manifest WinSoft.Manifest.psd1
+- Ajout d’un système de documentation dans /docs (préparation GitHub Pages)
+- Ajout d’un loader de modules (utils/module_loader.ps1)
+- Ajout d’un loader de configuration (config/config-loader.ps1)
+- Ajout d’un gestionnaire d’erreurs centralisé (utils/error_handler.ps1)
+- Ajout de fichiers module.json pour chaque module
+
+### Changed
+- Réorganisation de la structure du projet pour plus de modularité
+- Mise à jour de WinSoft.ps1 pour utiliser le Core et les loaders
+- Amélioration de STRUCTURE.md pour refléter la nouvelle architecture
+
+### Removed
+- Aucun fichier supprimé
+
+### Notes
+- GitHub Pages n’est pas encore activé mais la documentation est prête.
 
 # 🟩 [1.1] — Optimisation Avancée (2026-04)
 ### 🔧 Optimisation réseau
