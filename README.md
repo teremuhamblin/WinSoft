@@ -1,16 +1,15 @@
-> `README.md` principal complet parfaitement aligné avec le projet `WinSoft v1.0` et avec une présentation moderne de type `framework open‑source`.
-
-- à la racine
-
+```md
+`README.md` principal complet parfaitement aligné avec le projet `WinSoft v1.0` et avec une présentation moderne de type `framework open‑source`.
 ```
+> - à la racine
+```md
 ~WinSoft/ README.md
 ```
----
-###### 🟦 README.md — `markdown`
 
+---
 <div align="center">
   
-# 🪛 WINSOFT 1.0
+# 🪛🟦 WinSoft
   </p>
 </div>
 
