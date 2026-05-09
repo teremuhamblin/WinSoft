@@ -1,4 +1,70 @@
+###### ROADMAP.md >> markdown
 # 🗺️ Roadmap — WinSoft
+>Évolution du projet WinSoft, de la version 1.0 à 1.3.  
+- Objectif : créer un outil PowerShell modulaire, stable, maintenable et documenté.
+
+---
+
+## ✅ v1.0 — Initialisation du projet
+- Création du script principal `WinSoft.ps1`
+- Ajout des premiers modules : network, performance, cleanup
+- Mise en place des dossiers : config/, logs/, modules/, utils/
+- Ajout des fichiers de documentation de base (README, STRUCTURE)
+
+---
+
+## ✅ v1.1 — Stabilisation & Modularisation
+- Séparation des modules par catégories (network, performance, cleanup)
+- Ajout des fichiers de configuration dédiés
+- Mise en place du système de logs + rotation
+- Amélioration de la structure générale du projet
+- Ajout des assets (logo, banner, screenshots)
+
+---
+
+## 🚀 v1.2 — Architecture Avancée & Préparation Documentation (EN COURS)
+### Nouveautés principales
+- Ajout du module central `WinSoft.Core.psm1`
+- Ajout du manifest PowerShell `WinSoft.Manifest.psd1`
+- Ajout d’un système de documentation dans `docs/` (préparation GitHub Pages)
+- Ajout d’un loader de modules (`utils/module_loader.ps1`)
+- Ajout d’un loader de configuration (`config/config-loader.ps1`)
+- Ajout d’un gestionnaire d’erreurs centralisé (`utils/error_handler.ps1`)
+- Ajout de fichiers `module.json` pour chaque module
+- Mise à jour de la structure du projet (v1.2)
+
+### Objectifs
+- Standardiser l’architecture PowerShell
+- Préparer la documentation pour GitHub Pages (sans l’activer)
+- Améliorer la maintenabilité et la scalabilité
+- Centraliser les fonctions critiques (logs, erreurs, chargement)
+
+---
+
+## 🔭 v1.3 — Automatisation & Intelligence (À VENIR)
+### Prévisions
+- Ajout d’un système d’auto-détection Windows (10/11/Server)
+- Ajout d’un module d’analyse système avancé
+- Ajout d’un mode “Auto-Optimize”
+- Ajout d’un système de profils (Gaming / Work / Minimal / Full)
+- Génération automatique de rapports (HTML / Markdown)
+- Intégration d’un mode “Dry Run” pour tester sans appliquer
+
+---
+
+## 🧠 Vision Long Terme (v2.x → v3.x)
+- Interface graphique (WinUI / WPF)
+- API interne pour modules externes
+- Système de plugins
+- Mode entreprise (audit + conformité)
+- Intégration cloud (sauvegarde configs + logs)
+- Dashboard interactif (web ou local)
+
+---
+
+## 📌 Notes
+- GitHub Pages n’est pas encore activé, mais la documentation est prête.
+- La structure v1.2 est conçue pour supporter les futures versions sans refonte majeure.
 
 ## 📌 RAPPEL : Version 1.0 (stable)
 - Structure du framework PowerShell
@@ -9,6 +75,7 @@
 - Configuration modulaire (config/apps-*.txt)
 - Documentation initiale (README, CONTRIBUTING, SECURITY)
 
+---
 ---
 
 # 🚀 Version 1.1 — Optimisation Avancée (en cours)
